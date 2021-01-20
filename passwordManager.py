@@ -26,6 +26,9 @@ def main():
         with open('services.txt', 'r') as f:
             servicesList = f.read()
             servicesList = servicesList.split(",")
+    else:
+        with open('services.txt','w') as f:
+            pass
     if serviceChoice == "a":
         servicesList = []
         serviceName = input("Service name? ")
