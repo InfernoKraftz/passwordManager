@@ -1,7 +1,8 @@
 import random
 import os
 
-masterPw = "Yuvraj90133233"
+#Your password that will be asked everytime on login goes in the quotation marks.
+masterPw = ""
 password = input("Enter masterpassword: ")
 
 lower = "abcdefghijklmnopqrstuvwxyz"
